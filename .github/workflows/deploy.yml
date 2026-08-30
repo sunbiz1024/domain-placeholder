@@ -27,8 +27,7 @@ jobs:
           node-version: 22
           cache: pnpm
       - run: pnpm install --frozen-lockfile
-      # GitHub Pages 项目站挂在 /domain-placeholder/ 子路径下,构建时覆盖 base
-      - run: pnpm exec vite build --base=/domain-placeholder/
+      - run: pnpm exec vite build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
