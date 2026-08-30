@@ -1,0 +1,10 @@
+{
+  "description": "Create a stylish placeholder page for your domain, perfect for showcasing your brand or message while your site is under construction.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
